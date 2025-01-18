@@ -9,6 +9,7 @@ export default {
   theme: {
     fontFamily: {
       sans: 'Roboto Mono, monospace',
+      paint:["Rubik Wet Paint", "serif"],
     },
     extend: {
       screens: {

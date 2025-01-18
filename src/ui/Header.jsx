@@ -5,13 +5,16 @@ import Username from "../features/user/Username";
 function Header() {
   return (
     <header className="flex items-center justify-between border-b border-stone-200 bg-yellow-400 px-4 py-3 uppercase sm:px-6">
-      <Link to="/" className="flex items-center gap-2 tracking-[5px]">
+      <Link
+        to="/"
+        className="flex select-none items-center gap-2 font-paint text-lg font-semibold tracking-[5px] drop-shadow-sm hover:cursor-pointer sm:text-3xl sm:drop-shadow-xl"
+      >
         <img
           src="/images/logo.png"
-          className="h-14 w-14 object-cover"
+          className="h-12 w-12 object-cover"
           alt="logotype"
         />
-        <p className="text-lg font-semibold italic drop-shadow-md">La Minor</p>
+        <span className="w-8 sm:w-auto">La Minor</span>
       </Link>
 
       <SearchOrder />
