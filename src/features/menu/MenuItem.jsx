@@ -5,6 +5,7 @@ import Button from "../../ui/Button";
 import DeleteItem from "../cart/DeleteItem";
 import UpdateItemQuantity from "../cart/UpdateItemQuantity";
 import MobileExpandableDescription from "./MobileExpandableDescription";
+import ImageWithPlaceholder from "../../ui/ImageWithPlaceholder";
 
 function MenuItem({ pizza }) {
   const dispatch = useDispatch();
@@ -26,10 +27,10 @@ function MenuItem({ pizza }) {
 
   return (
     <li className="flex items-center gap-4 py-2 xs:items-stretch">
-      <img
+      <ImageWithPlaceholder
         src={imageUrl}
         alt={name}
-        className={`h-24 w-24 ${soldOut ? "opacity-70 grayscale" : ""}`}
+        className={`h-24 w-24 flex-shrink-0 ${soldOut ? "opacity-70 grayscale" : ""}`}
       />
       <div className="flex flex-grow flex-col pt-0.5">
         <p className="font-medium">{name}</p>

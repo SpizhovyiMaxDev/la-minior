@@ -89,7 +89,7 @@ function CreateOrder() {
                 required
               />
               {!position?.latitude && !position?.longitude && (
-                <span className="absolute bottom-[2.5px] right-[2.5px] z-50 md:right-[5px] md:top-[5px]">
+                <span className="absolute right-[0.7%] top-[50%] translate-y-[-50%]">
                   <Button
                     type="small"
                     onClick={handleGetPosition}

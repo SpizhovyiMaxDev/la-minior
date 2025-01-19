@@ -21,7 +21,8 @@ function Order() {
 
   useEffect(
     function () {
-      setTimeout(() => setShowSuccessMessage(false), 1000);
+      const timer = setTimeout(() => setShowSuccessMessage(false), 2000);
+      return () => clearTimeout(timer);
     },
     [showSuccessMessage],
   );
@@ -54,7 +55,7 @@ function Order() {
   return (
     <div className="space-y-8 px-4 py-6">
       <p
-        className={`fixed left-[50%] top-[20%] z-50 w-64 translate-x-[-50%] translate-y-8 rounded bg-green-500 px-4 py-2 text-white shadow-lg transition-all duration-500 ${showSuccessMessage ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}
+        className={`fixed left-[50%] top-[20%] z-50 w-64 translate-x-[-50%] rounded bg-green-500 px-4 py-2 text-white shadow-lg transition-all duration-500 ${showSuccessMessage ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"}`}
       >
         ✅ Successfully Updated
       </p>

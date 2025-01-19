@@ -2,7 +2,7 @@ import { useFetcher } from "react-router-dom";
 import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAddress } from "../user/userSlice";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { updateOrder } from "../../services/apiRestaurant";
 import { isValidPhone } from "../../utils/helpers";
 
@@ -20,10 +20,15 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
     dispatch(fetchAddress());
   }
 
-  if (fetcher.data?.success) {
-    setIsUpdateFormOpen(false);
-    setShowSuccessMessage(true);
-  }
+  useEffect(
+    function () {
+      if (fetcher.data?.success) {
+        setIsUpdateFormOpen(false);
+        setShowSuccessMessage(true);
+      }
+    },
+    [fetcher.data, setIsUpdateFormOpen, setShowSuccessMessage],
+  );
 
   /*
 <Form> (React Router) 
@@ -38,13 +43,6 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
           <p className="trancking-wide mb-2 text-xl font-semibold sm:mb-0">
             Want to update order ?
           </p>
-
-          <button
-            className="rounded-full bg-red-500 px-2.5 py-1.5 text-sm text-red-50"
-            onClick={() => setIsUpdateFormOpen(false)}
-          >
-            Cancel Update
-          </button>
         </div>
 
         <div className="pl-4">
@@ -76,7 +74,7 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
                 required
               />
 
-              <span className="absolute bottom-[2.5px] right-[2.5px] z-50 md:right-[5px] md:top-[5px]">
+              <span className="absolute right-[0.7%] top-[50%] translate-y-[-50%]">
                 <Button
                   type="small"
                   onClick={handleUpdateAddress}
@@ -89,7 +87,7 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
           </div>
 
           {!isPrioritized && (
-            <div className="mb-12 flex flex-row flex-nowrap items-center gap-5">
+            <div className="flex flex-row flex-nowrap items-center gap-5">
               <input
                 type="checkbox"
                 className="h-6 w-6 accent-yellow-400 focus:outline-none focus:ring focus:ring-yellow-400 focus:ring-offset-2"
@@ -105,7 +103,12 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
           )}
         </div>
 
-        <Button type="primary">Update Order</Button>
+        <div className="mt-12 flex flex-col gap-4 xs:flex-row">
+          <Button type="primary">Update Order</Button>
+          <Button type="tertiary" onClick={() => setIsUpdateFormOpen(false)}>
+            Cancel Update
+          </Button>
+        </div>
       </div>
     </fetcher.Form>
   );
