@@ -9,7 +9,11 @@ import { isValidPhone } from "../../utils/helpers";
 function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
   const fetcher = useFetcher();
   const dispatch = useDispatch();
-  const { address, status: addressStatus } = useSelector((store) => store.user);
+  const {
+    address,
+    status: addressStatus,
+    error: errorAddress,
+  } = useSelector((store) => store.user);
   const isLoadingAddress = addressStatus === "loading";
   const isPrioritized = order.priority;
   const [withPriority, setWithPriority] = useState(isPrioritized);
@@ -65,24 +69,31 @@ function UpdateOrder({ order, setIsUpdateFormOpen, setShowSuccessMessage }) {
 
           <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center">
             <label className="sm:basis-40">Address</label>
-            <div className="relative grow">
-              <input
-                className="input w-full"
-                name="address"
-                defaultValue={address}
-                disabled={isLoadingAddress}
-                required
-              />
-
-              <span className="absolute right-[0.7%] top-[50%] translate-y-[-50%]">
-                <Button
-                  type="small"
-                  onClick={handleUpdateAddress}
+            <div className="grow">
+              <div className="relative">
+                <input
+                  className="input w-full"
+                  name="address"
+                  defaultValue={address}
                   disabled={isLoadingAddress}
-                >
-                  {isLoadingAddress ? "Loading..." : "Update geo..."}
-                </Button>
-              </span>
+                  required
+                />
+
+                <span className="absolute right-[0.7%] top-[50%] translate-y-[-50%]">
+                  <Button
+                    type="small"
+                    onClick={handleUpdateAddress}
+                    disabled={isLoadingAddress}
+                  >
+                    {isLoadingAddress ? "Loading..." : "Update geo..."}
+                  </Button>
+                </span>
+              </div>
+              {addressStatus === "error" && (
+                <p className="mt-2 rounded-md bg-red-100 p-2 text-xs text-red-700">
+                  {errorAddress}
+                </p>
+              )}
             </div>
           </div>
 
