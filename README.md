@@ -26,13 +26,20 @@
 Ideal for learning full-stack concepts, frontend architecture, and component-based development.
 
 
-## 🚀 Installation for Users
+## 🚀 Installation for Devs
 
-To run the app locally:
-
+👉 Clone the repository
 ```bash
 git clone https://github.com/yourusername/fast-react-pizza.git
 cd fast-react-pizza
+```
+
+👉 Install project dependencies, install project dependencies
+```bash
 npm install
+```
+
+👉 Start the development server
+```bash
 npm run dev
 ```
