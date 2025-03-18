@@ -28,7 +28,7 @@ Ideal for learning full-stack concepts, frontend architecture, and component-bas
 
 
 ## 🚀 Getting Started - Installation & Running the App
-Below I encluded basic installation instructions, please do nt declare this projectas this is fully done by you
+⚠️ Disclaimer: This project is shared for learning and educational purposes. Please respect the effort put into building and enhancing it. Do not copy unique features, logic, or design elements and present them as your own.
 
 ### Clone the repository
 ```bash
