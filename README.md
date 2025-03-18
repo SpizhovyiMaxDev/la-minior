@@ -29,24 +29,24 @@ Ideal for learning full-stack concepts, frontend architecture, and component-bas
 
 ## 🚀 Installation for Devs
 
-### 👉 Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/yourusername/fast-react-pizza.git
 cd fast-react-pizza
 ```
 
-### 👉 Install project dependencies, install project dependencies
+### Install project dependencies, install project dependencies
 ```bash
 npm install
 ```
 
-### 👉 Start the development server
+### Start the development server
 ```bash
 npm run dev
 ```
 
 
-### 👉 Available developer commands:
+### Available developer commands:
 ```bash
 npm run build      # Build for production
 npm run preview    # Preview production build
