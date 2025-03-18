@@ -27,8 +27,10 @@ Ideal for learning full-stack concepts, frontend architecture, and component-bas
 
 ---
 
-## 🚀 Installation Instructions
+## 🚀 Getting Started - Installation & Running the App
 
+
+Below I encluded basic installation instructions, please do nt declare this projectas this is fully done by you
 ### Clone the repository
 ```bash
 git clone https://github.com/yourusername/fast-react-pizza.git
