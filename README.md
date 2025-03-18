@@ -14,6 +14,11 @@
 - **Externals:** REST APIs
   
 
+### 🎥 **Demo Video**
+
+Watch the demo of the app:  
+[**Fast React Pizza Demo**](https://youtu.be/Jaz6gDjBNuk)
+<br>
 
 ### 🚀 App Features
 - **Explore Menu:** Browse a diverse selection of pizzas.
@@ -55,4 +60,5 @@ npm run lint       # Run ESLint checks
 npm run test       # Run tests (in progress)
 ```
 <br>
+
 
