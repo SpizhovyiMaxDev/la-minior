@@ -24,3 +24,15 @@
 - **Real-Time Order Tracking:** Monitor order progress from preparation to delivery.
 
 Ideal for learning full-stack concepts, frontend architecture, and component-based development.
+
+
+## 🚀 Installation for Users
+
+To run the app locally:
+
+```bash
+git clone https://github.com/yourusername/fast-react-pizza.git
+cd fast-react-pizza
+npm install
+npm run dev
+```
