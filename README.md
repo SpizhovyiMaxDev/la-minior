@@ -2,7 +2,7 @@
 # 🍕 Fast React Pizza - Lightning-fast Pizza Ordering Web App
 
 ### A modern pizza ordering SPA built with React, Vite, and Tailwind CSS.
-
+<br>
 
 
 ### ✨ Introduction
@@ -13,7 +13,7 @@
 - **Programming Languages:** JavaScript
 - **Libraries:** React.js, React Router, Redux Toolkit, Tailwind CSS, Vitest (Unit & Integration Testing)
 - **Externals:** REST APIs
-
+<br>
 
 
 ### 🚀 App Features
@@ -24,7 +24,7 @@
 - **Real-Time Order Tracking:** Monitor order progress from preparation to delivery.
 
 Ideal for learning full-stack concepts, frontend architecture, and component-based development.
-
+<br>
 
 
 ## 🚀 Getting Started - Installation & Running the App
@@ -36,20 +36,16 @@ This project is shared for learning and educational purposes. Please respect the
 git clone https://github.com/yourusername/fast-react-pizza.git
 cd fast-react-pizza
 ```
-<br>
 
 ### Install project dependencies, install project dependencies
 ```bash
 npm install
 ```
-<br>
 
 ### Start the development server
 ```bash
 npm run dev
 ```
-<br>
-
 
 ### Available developer commands:
 ```bash
