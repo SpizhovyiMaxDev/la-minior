@@ -28,23 +28,27 @@ Ideal for learning full-stack concepts, frontend architecture, and component-bas
 
 
 ## 🚀 Getting Started - Installation & Running the App
-⚠️ Disclaimer: This project is shared for learning and educational purposes. Please respect the effort put into building and enhancing it. Do not copy unique features, logic, or design elements and present them as your own.
+This project is shared for learning and educational purposes. Please respect the effort put into building and enhancing it. Do not copy unique features, logic, or design elements and present them as your own.
+<br>
 
 ### Clone the repository
 ```bash
 git clone https://github.com/yourusername/fast-react-pizza.git
 cd fast-react-pizza
 ```
+<br>
 
 ### Install project dependencies, install project dependencies
 ```bash
 npm install
 ```
+<br>
 
 ### Start the development server
 ```bash
 npm run dev
 ```
+<br>
 
 
 ### Available developer commands:
@@ -54,4 +58,5 @@ npm run preview    # Preview production build
 npm run lint       # Run ESLint checks
 npm run test       # Run tests (in progress)
 ```
+<br>
 
