@@ -5,18 +5,18 @@
 
 ---
 
-## ✨ Introduction
+### ✨ Introduction
 
 **Fast React Pizza** is a modern and stylish pizza ordering web application. This project demonstrates how to build a performant single-page app using modern technologies.
 
-## 🔨 Tech stack used for this project:
+### 🔨 Tech stack used for this project:
 **Programming Languages:** JavaScript
 **Libraries:** React.js, React Router, Redux Toolkit, Tailwind CSS, Vitest (Unit & Integration Testing)
 **Externals:** REST APIs
 
 ---
 
-## 🚀 App Features
+### 🚀 App Features
 - **Explore Menu:** Browse a diverse selection of pizzas.
 - **Customization & Ordering:** Personalize pizzas and place orders seamlessly.
 - **Cart Management:** Add, remove, and modify items before checkout.
