@@ -14,11 +14,10 @@
 - **Externals:** REST APIs
   
 
-### 🎥 **Demo Video**
+### 🎥 Demo Video
 
-Watch the demo of the app:  
-[**Fast React Pizza Demo**](https://youtu.be/Jaz6gDjBNuk)
-<br>
+[![Fast React Pizza Demo](https://img.youtube.com/vi/Jaz6gDjBNuk/0.jpg)](https://youtu.be/Jaz6gDjBNuk)
+
 
 ### 🚀 App Features
 - **Explore Menu:** Browse a diverse selection of pizzas.
