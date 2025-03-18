@@ -3,7 +3,7 @@
 
 ### A modern pizza ordering SPA built with React, Vite, and Tailwind CSS.
 
----
+
 
 ### ✨ Introduction
 
@@ -14,7 +14,7 @@
 **Libraries:** React.js, React Router, Redux Toolkit, Tailwind CSS, Vitest (Unit & Integration Testing)
 **Externals:** REST APIs
 
----
+
 
 ### 🚀 App Features
 - **Explore Menu:** Browse a diverse selection of pizzas.
