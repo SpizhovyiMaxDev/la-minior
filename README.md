@@ -16,7 +16,8 @@
 
 ### 🎥 Demo Video
 
-[![Fast React Pizza Demo](https://img.youtube.com/vi/Jaz6gDjBNuk/0.jpg)](https://youtu.be/Jaz6gDjBNuk)
+<a href = "https://img.youtube.com/vi/Jaz6gDjBNuk/0.jpg)](https://youtu.be/Jaz6gDjBNuk" target = "_blank">View Video</a>
+<!--[![Fast React Pizza Demo](https://img.youtube.com/vi/Jaz6gDjBNuk/0.jpg)](https://youtu.be/Jaz6gDjBNuk)-->
 
 
 ### 🚀 App Features
