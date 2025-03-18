@@ -28,7 +28,6 @@ Ideal for learning full-stack concepts, frontend architecture, and component-bas
 ---
 
 ## 🚀 Installation for Devs
-
 👉 Clone the repository
 ```bash
 git clone https://github.com/yourusername/fast-react-pizza.git
