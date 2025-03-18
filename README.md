@@ -25,6 +25,7 @@
 
 Ideal for learning full-stack concepts, frontend architecture, and component-based development.
 
+---
 
 ## 🚀 Installation for Devs
 
