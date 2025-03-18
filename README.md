@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍕 Fast React Pizza - Lightning-fast Pizza Ordering Web App
 
-Currently, two official plugins are available:
+### A modern pizza ordering SPA built with React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Introduction
+
+**Fast React Pizza** is a modern and stylish pizza ordering web application. This project demonstrates how to build a performant single-page app using modern technologies.
+
+## 🔨 Tech stack used for this project:
+
+**Programming Languages:** JavaScript
+**Libraries:** React.js, React Router, Redux Toolkit, Tailwind CSS, Vitest (Unit & Integration Testing)
+**Externals:** REST APIs
+
+## 🚀 App Features
+
+- **Explore Menu:** Browse a diverse selection of pizzas.
+- **Customization & Ordering:** Personalize pizzas and place orders seamlessly.
+- **Cart Management:** Add, remove, and modify items before checkout.
+- **Order Updates:** Edit delivery details (address, phone) and adjust order priority.
+- **Real-Time Order Tracking:** Monitor order progress from preparation to delivery.
+
+Ideal for learning full-stack concepts, frontend architecture, and component-based development.
